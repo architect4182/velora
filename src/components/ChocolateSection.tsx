@@ -15,7 +15,7 @@ export default function ChocolateSection({
   setCurrentTheme,
   onAddToCart,
 }: ChocolateSectionProps) {
-  const { id, type, subtitle, description, imageUrl, watermarkText, indexLabel, price, weight, ingredients } = product;
+  const { type, subtitle, description, imageUrl, watermarkText, indexLabel, price, weight, ingredients } = product;
 
   const { ref, inView } = useInView({
     threshold: 0.5,
